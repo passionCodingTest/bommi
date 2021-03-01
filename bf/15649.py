@@ -17,6 +17,7 @@ def dfs(x):
         array.append(num_list[i])
         check_num[i]=True
 
+        
         dfs(x+1)
 
         array.pop()
