@@ -21,6 +21,7 @@ def dfs(x):
         # print("array pop 전" , *array)
 
         dfs(x+1)
+        
         check[i]=True
         array.pop()
         # print("array pop 후" , *array)  
