@@ -1,5 +1,3 @@
-#풀이 : https://claude-u.tistory.com/372
-#어렵다..문제이해
 from itertools import combinations #조합 함수
 
 N = int(input())
@@ -7,10 +5,10 @@ S = [list(map(int, input().split())) for _ in range(N)]
 members = [i for i in range(N)]
 possible_team = []
 
+
 #조합으로 가능한 팀 생성해주기
 for team in list(combinations(members, N//2)):
     possible_team.append(team)
-print(possible_team)
 
 min_stat_gap = 10000 #갭이 가장 작은 값을 찾기 위하여
 for i in range(len(possible_team)//2):
