@@ -1,1 +1,0 @@
-print('VSCODE GIT CONNECT')
